@@ -2,12 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net9.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>NonogramNotes</RootNamespace>
     <AssemblyName>NonogramNotes</AssemblyName>
+    <Version>0.1.0</Version>
+    <Product>Nonogram Notes</Product>
   </PropertyGroup>
 
   <ItemGroup>

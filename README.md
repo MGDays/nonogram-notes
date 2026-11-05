@@ -4,12 +4,15 @@ A simple AI-generated nonogram notes application, since I couldn't find one else
 
 > Work in progress: puzzles aren't saved yet, so your work is lost when you close the window.
 
-## Requirements
+## Download
 
-- Windows
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+Get the latest zip from [Releases](https://github.com/MGDays/nonogram-notes/releases), extract it and run `NonogramNotes.exe`.
 
-## Build and run
+It needs 64-bit Windows 10 or 11 and the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) (if it's missing, Windows offers to download it when you first run the app). The exe isn't code-signed, so Windows SmartScreen may warn you the first time: choose **More info**, then **Run anyway**.
+
+## Build from source
+
+Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
 
 ```
 dotnet build NonogramNotes.sln
