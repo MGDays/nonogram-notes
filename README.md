@@ -32,16 +32,6 @@ dotnet run --project NonogramNotes.csproj
 
 A drag only changes cells in the same state as the one you started on, so it won't wipe out your other marks. A clue turns grey once its line matches it.
 
-## Self-test
-
-`SelfTest` drives the app in-process and off-screen (it sends no real mouse or keyboard input) and checks drawing, clues, undo/redo and resizing:
-
-```
-dotnet run --project SelfTest -- [screenshot.png]
-```
-
-It exits with code 0 when every check passes.
-
 ## License
 
 Public domain ([Unlicense](LICENSE)): do whatever you like with it.
